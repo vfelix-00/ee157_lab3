@@ -13,8 +13,8 @@ We conducted tests to measure the DC resistance and inductance of our inductor a
 
 ## Materials 
 
-- Core
-- Bobbin 
+- 495-5429-ND Core (E25 Core, N27 material)
+- 495-5375-ND Bobbin 
 - Magnet wire (#20 AWG copper wire)
 - Gapping material (paper)
 - Analog Discovery and Impedance Analyzer for Analog Discovery
