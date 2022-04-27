@@ -28,5 +28,5 @@ The coil was winded (20 turns) on the plastic bobbin according to design. The in
 
 ![IMG_2509](https://user-images.githubusercontent.com/71578472/165446006-2bb56abd-e7bf-4a3e-b97c-0c6fa25d3058.jpeg)
 
-Figure 1: Inductor designed with 495-5429-ND Core (E25 Core, N27 material), 495-5375-ND Bobbin, and #20 AWG copper wire.
+Figure 1: Inductor designed with 495-5429-ND Core (E25 Core, N27 material), 495-5375-ND Bobbin, and #20 AWG copper wire scaled with nickel.
 
