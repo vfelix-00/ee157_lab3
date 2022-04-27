@@ -22,3 +22,7 @@ We conducted tests to measure the DC resistance and inductance of our inductor a
 - USB isolator module
 - Thermal camera
 
+## Fabrication
+
+The coil was winded on the plastic bobbin according to design. The insulation was scraped off the ends to make good connection. The core was assembled gapping material (paper) to achieve the designed gap size of . Tape was used to hold it together. 
+
