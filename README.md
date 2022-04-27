@@ -36,5 +36,9 @@ Figure 1: Inductor designed with 495-5429-ND Core (E25 Core, N27 material), 495-
 
 The Impedance Analyzer was used for Analog Discovery to measure the inductance and resistance of our inductor. The Digilent Waveforms software was downloaded and installed. The Analog Discovery was then connected to our computer using the USB isolator module, which protected our computer from unwanted overvoltages and overcurrents. The Impedance Analyzer for Analog Discovery measured the impedance of two port elements. DC resistance and inductance was measured using the Analog Discovery. 
 
+#### DC Resistance 
+
+#### Inductance 
+
 
 
