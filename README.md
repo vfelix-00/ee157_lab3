@@ -40,5 +40,14 @@ The Impedance Analyzer was used for Analog Discovery to measure the inductance a
 
 #### Inductance 
 
+![inductance](https://user-images.githubusercontent.com/71578472/165452239-1d6de2c8-e705-4029-8dca-95cc943c3d2f.jpeg)
 
+#### Measuring inductance with a superimposed DC current
+
+The test setup diagrammed in Fig. 1 was used to measure the inductance with the superimposed DC current between 0 and 3 A. The auxiliary inductor was used to decouple the LCR meter measurement from the power supply, which can interfere with the inductance measurement. 
+
+
+<img width="615" alt="Screen Shot 2022-04-26 at 11 11 50 PM" src="https://user-images.githubusercontent.com/71578472/165452821-d2fa217b-6890-4ca6-b083-1d60a9d8233a.png">
+
+Figure 1: Test setup used for measuring inductance with a superimposed DC current. The ‘LCR Meter’ represents the Impedance Analyzer for Analog Discovery.
 
