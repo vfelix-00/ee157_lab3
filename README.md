@@ -59,6 +59,13 @@ The Impedance Analyzer was used for Analog Discovery to measure the inductance a
 
 #### DC Resistance 
 
+The DC resistance was measured with respect to frequency using the Impedance Analyzer for Analog Discovery. An USB isolator module was used to protect our computer from the unwanted overvoltages and overcurrents. At 0 Hz, the DC resistance was around 0.0332 ohms. 
+
+However, at higher frequencies, the current traveled through a smaller cross-sectional area of the wire. The physical result of this was that the impedance increased as the frequency increased. This phenomenon is known as the skin effect and happens as the current flows closer to the surface of the wire.
+
+<img width="499" alt="Screen Shot 2022-05-09 at 6 21 22 PM" src="https://user-images.githubusercontent.com/71578472/167523752-76f93da4-6ad1-4413-8995-a387c15aa688.png">
+
+
 #### Inductance 
 
 ![inductance](https://user-images.githubusercontent.com/71578472/165452239-1d6de2c8-e705-4029-8dca-95cc943c3d2f.jpeg)
