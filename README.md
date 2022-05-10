@@ -17,7 +17,8 @@ We conducted tests to measure the DC resistance and inductance of our inductor a
 - 495-5375-ND Bobbin 
 - Magnet wire (#20 AWG copper wire)
 - Gapping material (paper)
-- Analog Discovery and Impedance Analyzer for Analog Discovery
+- Analog Discovery 
+- Impedance Analyzer for Analog Discovery
 - Auxiliary inductor (5 mH)
 - USB isolator module
 - Thermal camera
@@ -44,7 +45,7 @@ In summary, we used the core 495-5429-ND E25 core, N27 material, bobbin 495-5375
 
 ## Fabrication
 
-The coil was winded (20 turns) on the plastic bobbin according to design. The insulation was scraped off the ends to make a good connection. The core was assembled with gapping material (paper) to achieve the designed gap size of 1.19 * 10^-4 m. Since there were two gaps, the length of one gap was approximately 0.6 * 10^04 m, so one sheet of paper was used because of it's 0.05 mm thickness. Tape was used to hold it together. 
+The coil was winded (20 turns) on the plastic bobbin according to design. The insulation was scraped off the ends to make a good connection. The core was assembled with gapping material (paper) to achieve the designed gap size of 1.19 * 10^-4 m. Since there were two gaps, the length of one gap was approximately 0.6 * 10^04 m, so one sheet of paper was used because of its 0.05 mm thickness. We cut the paper and placed it between the 495-5429-ND E25 cores. We then wrapped Kapton tape around the core and bobbins to hold the inductor together. Lastly, we scraped the insulation off the ends of the terminals.
 
 ![IMG_2509](https://user-images.githubusercontent.com/71578472/165446006-2bb56abd-e7bf-4a3e-b97c-0c6fa25d3058.jpeg)
 
