@@ -144,5 +144,9 @@ steps could you take to redesign your inductor to meet the specification?
 
 Our inductor had a measured inductance of about 140 μH which was lower than the specification of 200 μH +/- 5%, but it was still of the same magnitude. The saturation current was also lower with about 2 A, instead of the specification of 3 A. This could be due to manufacturing error with the air gap. Inductance and air gap length are inversely proportional. Our larger air gap could've led to a lower inductance. To combat this, we tried to wrap tape around our cores to hold it tightly in place, but it probably wasn't enough to compress to the needed value of 0.0595 mm per gap. Based on our calculations, the experimental air gap was about 0.085mm which had an error of about 42.86%. However, it was difficult to achieve this as the difference was of about 0.0255mm which is a really small scale. We can try to compensate for this by introducing an "expansion factor," ke, to scale lg by 1.4. This changes the number of turns given by the equation N = sqrt(L * lg * ke / u_o * Ac). It turns out, we would have to increase the number of turns to compensate for the air gap error.
 
+3. The “air gap” used is actually a Kapton or paper gap. The Kapton/paper is non-magnetic, and behaves the same as a true air gap. What would happen if aluminum was used for the gapping material?
+
+The permeability of free space is represented by μ0 = 4π * 10^−7 H/m = 1.25663753 * 10^−6 H /m. The permeability of aluminum is  μaluminum = 1.256665 * 10^−6 H/m which is similar to μ0. This makes sense since aluminum isn't magnetic as well. Our values would change only by a little if at all. We might see a very small increase in inductance since the inductance is proportional to the permeability of material in the air gap.
+
 
 
