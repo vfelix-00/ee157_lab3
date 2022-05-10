@@ -137,9 +137,9 @@ component. Is your estimate supported by measurements that you recorded in
 lab? (Note you will not explicitly do this measurement, but rather infer losses
 from DC resistance and your temperature measurements.)
 
-The datasheet for our chosen 495-5429-ND E25 core with N27 material reports a relative core loss of < 59%. The winding losses are given by P = I_rms^2 * R_DC, so for I_rms = 2 A + 1 A / sqrt(2) and R_DC = 0.0332 ohms, P_winding is estimated to be 0.243 W. This is supported by our measurements, which show that resistance increases as frequency increases, and so we would expect winding losses to increase as frequency increases.
+The datasheet for the 495-5429-ND E25 core with N27 material reports a relative core loss of < 59%. The winding losses are given by the equation P = I_rms^2 * R_DC. This means that I_rms = 2 A + 1 A / sqrt(2). The R_DC = 0.0332 ohms and the P_winding is estimated to be about 0.243 W. This was actually supported by our measurements. Our measurements demonstrated that the resistance increases as frequency increases. Therefore, we could also expect winding losses to increase as frequency increases.
 
-Looking at our temperature measurements, there is an average increase in 0.92 °C per amp increase in current. For our RMS voltage of 2.707 A, an increase in 1 A would lead to power to increase by 0.213 W. Copper has a mass of 3.94 g/m and a heat capacity of 0.395 J/g°C, so to raise our wire by 0.92 degrees it would take 0.3634 J of energy. Estimating that the change in temperature per amp takes about 3 seconds, that is a rate of 0.121 W, about 52.4% of the power dissipated just from the increasing the current alone, and within reason of the <59% reported by the datasheet.
+From our temperature measurements, there is an average increase of about 0.92 °C per amp increase in current. For a RMS voltage of 2.707 A, an increase of 1 A would cause the power to increase by 0.213 W. Since copper has a mass of 3.94 g/m and a heat capacity of 0.395 J/g°C, in order to raise our wire by 0.92 degrees, we would need 0.3634 J of energy. If we estimate that the change in temperature per amp takes about 3 seconds, the rate would be 0.121 W which is about 52.4% of the power dissipated from just increasing the current alone. This is reasonable given the <59% given by the datasheet.
 
 
 
