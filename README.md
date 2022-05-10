@@ -81,10 +81,41 @@ The inductance increased with frequency as expected. This happens because the cu
 
 #### Measuring inductance with a superimposed DC current
 
-The test setup diagrammed in Fig. 1 was used to measure the inductance with the superimposed DC current between 0 and 3 A. The auxiliary inductor was used to decouple the LCR meter measurement from the power supply, which can interfere with the inductance measurement. 
+The test setup diagrammed in the figure below was used to measure the inductance with the superimposed DC current between 0 and 3 A. The auxiliary inductor was used to decouple the LCR meter measurement from the power supply, which can interfere with the inductance measurement. 
 
 
 <img width="615" alt="Screen Shot 2022-04-26 at 11 11 50 PM" src="https://user-images.githubusercontent.com/71578472/165452821-d2fa217b-6890-4ca6-b083-1d60a9d8233a.png">
 
-Figure 2: Test setup used for measuring inductance with a superimposed DC current. The ‘LCR Meter’ represents the Impedance Analyzer for Analog Discovery.
+Figure 2: Test setup used for measuring inductance with a superimposed DC current. The ‘LCR Meter’ represents the Impedance Analyzer for Analog Discovery. The auxiliary inductor is a 5 mH inductor that serves to block off any AC current. 
+
+The inductance was measured at different values of DC current. Sample plots are included below.
+
+Inductance with 0 A DC current
+
+<img width="499" alt="Screen Shot 2022-05-09 at 6 50 35 PM" src="https://user-images.githubusercontent.com/71578472/167526472-d4ebc844-0738-4ae7-b49f-122d65961251.png">
+
+Inductance with 1 A DC current
+
+<img width="498" alt="Screen Shot 2022-05-09 at 6 52 50 PM" src="https://user-images.githubusercontent.com/71578472/167526677-b49c81ac-a2aa-48cf-9edd-ab87abee87da.png">
+
+Inductance with 1.5 A DC current
+
+<img width="498" alt="Screen Shot 2022-05-09 at 6 54 00 PM" src="https://user-images.githubusercontent.com/71578472/167526770-d3e8f2d7-b6ae-4906-9f00-b9048524bfed.png">
+
+Inductance with 2 A DC current
+
+<img width="498" alt="Screen Shot 2022-05-09 at 6 54 54 PM" src="https://user-images.githubusercontent.com/71578472/167526849-3a788f3c-5d20-4d73-b73f-d1c65a5b8d53.png">
+
+Inductance with 2.5 A DC current
+
+<img width="497" alt="Screen Shot 2022-05-09 at 6 55 41 PM" src="https://user-images.githubusercontent.com/71578472/167526924-f8d3a0dc-436a-40a8-b2e6-2eae652aa1ef.png">
+
+
+Inductance with 3 A DC current
+
+<img width="498" alt="Screen Shot 2022-05-09 at 6 56 06 PM" src="https://user-images.githubusercontent.com/71578472/167526977-3d407e41-15c0-4214-9e06-7b6d2ea01795.png">
+
+
+
+
 
