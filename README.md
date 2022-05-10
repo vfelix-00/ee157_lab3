@@ -146,7 +146,7 @@ Our inductor had a measured inductance of about 140 μH which was lower than the
 
 3. The “air gap” used is actually a Kapton or paper gap. The Kapton/paper is non-magnetic, and behaves the same as a true air gap. What would happen if aluminum was used for the gapping material?
 
-The permeability of free space is represented by μ0 = 4π * 10^−7 H/m = 1.25663753 * 10^−6 H /m. The permeability of aluminum is  μaluminum = 1.256665 * 10^−6 H/m which is similar to μ0. This makes sense since aluminum isn't magnetic as well. Our values would change only by a little if at all. We might see a very small increase in inductance since the inductance is proportional to the permeability of material in the air gap.
+The permeability of free space is represented by μ0 = 4π * 10^−7 H/m = 1.25663753 * 10^−6 H / m. The permeability of aluminum is  μaluminum = 1.256665 * 10^−6 H/m which is similar to μ0. This makes sense since aluminum isn't magnetic as well. Our values would only change by a little if at all. We might see a very small increase in inductance since the inductance is proportional to the permeability of material in the air gap.
 
 
 
