@@ -139,5 +139,12 @@ from DC resistance and your temperature measurements.)
 
 The datasheet for the 495-5429-ND E25 core with N27 material reports a relative core loss of < 59%. The winding losses are given by the equation P = I_rms^2 * R_DC. This means that I_rms = 2 A + 1 A / sqrt(2). The R_DC = 0.0332 ohms and the P_winding is estimated to be about 0.243 W. This was actually supported by our measurements. Our measurements demonstrated that the resistance increases as frequency increases. Therefore, we could also expect winding losses to increase as frequency increases. From our temperature measurements, there is an average increase of about 0.92 °C per amp increase in current. For a RMS voltage of 2.707 A, an increase of 1 A would cause the power to increase by 0.213 W. Since copper has a mass of 3.94 g/m and a heat capacity of 0.395 J/g°C, in order to raise our wire by 0.92 degrees, we would need 0.3634 J of energy. If we estimate that the change in temperature per amp takes about 3 seconds, the rate would be 0.121 W which is about 52.4% of the power dissipated from just increasing the current alone. This is reasonable given the <59% given in the datasheet.
 
+2. Does your measured inductor meet the specification? If not, why not? And what
+steps could you take to redesign your inductor to meet the specification?
+
+The measured inductance of our inductor was about 140 μH, lower than the specification of 200 μH +/- 5%, although still of the same magnitude. In addition, the saturation current was about 2A, lower than the specification of 3A.
+One major reason for this is manufacturing error with the air gap. Inductance and air gap length are inversely proportional, so a larger air gap than expected led to a lower measured inductance. We wrapped tape around our cores to compress our inductor, which helped but likely did not compress to the needed value of 0.0595 mm per gap.
+Based on our calculations, the experimental air gap is about .085mm, an error of about 42.86%, but the actual difference is .0255mm is difficult to accomplish at this scale! We can introduce a "expansion factor" ke to scale lg by 1.4, so that the modified # of turns equation is N = sqrt(
+
 
 
