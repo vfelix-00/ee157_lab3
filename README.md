@@ -119,3 +119,13 @@ Overall, there was a trend of inductance increasing with frequency. However, aft
 
 We measured the inductance at a frequency of 10 kHz for varying DC currents and included the plot below to better visualize the saturation current.
 
+<img width="443" alt="Screen Shot 2022-05-09 at 7 23 26 PM" src="https://user-images.githubusercontent.com/71578472/167529726-321eb22e-f766-42fb-96b6-446273de42b2.png">
+
+Figure: A plot of current vs inductance at 10 KHz. The inductance begins to fall drastically at a DC current of about 2 A.
+
+We measured and recorded the temperature change of the inductor as the DC current increased using a thermal camera and then included the plot of the results below.
+
+<img width="483" alt="Screen Shot 2022-05-09 at 7 31 48 PM" src="https://user-images.githubusercontent.com/71578472/167530731-3a375124-4a61-40e4-af5a-99a1a9ae6338.png">
+
+Figure: The temperature increased as the current increased. Although the overall impedance decreases as current increases, referencing the power equation of P = I^2 * R, the power dissipated increases as current increases. The power is dissipated as heat, leading to an increase in temperature.
+
