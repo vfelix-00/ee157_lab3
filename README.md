@@ -115,7 +115,7 @@ Inductance with 3 A DC current
 
 <img width="498" alt="Screen Shot 2022-05-09 at 6 56 06 PM" src="https://user-images.githubusercontent.com/71578472/167526977-3d407e41-15c0-4214-9e06-7b6d2ea01795.png">
 
+Overall, there was a trend of inductance increasing with frequency. However, after about 2 A, the inductance decreased drastically as the DC current increased, which indicated that the saturation current of this inductor was around 2 A. 
 
-
-
+We measured the inductance at a frequency of 10 kHz for varying DC currents and included the plot below to better visualize the saturation current.
 
