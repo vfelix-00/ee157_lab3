@@ -68,7 +68,16 @@ However, at higher frequencies, the current traveled through a smaller cross-sec
 
 #### Inductance 
 
+The inductance was measured with respect to frequency using the Impedance Analyzer for Analog discovery.
+
 ![inductance](https://user-images.githubusercontent.com/71578472/165452239-1d6de2c8-e705-4029-8dca-95cc943c3d2f.jpeg)
+
+
+<img width="497" alt="Screen Shot 2022-05-09 at 6 33 00 PM" src="https://user-images.githubusercontent.com/71578472/167524858-c482c14f-7ef8-434f-99d3-9c0d25dfa3cf.png">
+
+Figures: Inductance varying with frequency with a current of 0 A.
+
+The inductance increased with frequency as expected. This happens because the current flowing through the coils induces a magnetic field which causes a back emf voltage opposing the current flow. This relationship is given by the equation V = L di/dt. The higher the frequency, the higher the rate of change of the current,the higher the back emf voltage, leading to a higher inductance.
 
 #### Measuring inductance with a superimposed DC current
 
