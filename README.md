@@ -30,11 +30,11 @@ The volume of the gap is given by the equation:
 Vg = u_o * L * (I_max)^2 / B_max^2 = 4πx10^−7*210μH*(2A)^2 / (410mT)^2 = 6.28x10^−9 m^3 for our operating DC current, magnetic field, and desired inductance. 
 
 From the specification for the E25 core, the cross-sectional area is Ac = 52.5mm^2 = 52.5x10^−6 m^2. 
-Dividing the desired Vg by our specified cross-sectional area, we got that our desired gap length, lg = 1.19 ∗ 10^−4 m.
+Dividing the desired Vg by our specified cross-sectional area, we got that our desired gap length was lg = 1.19 ∗ 10^−4 m.
 
-For the desired inductance and given dimensions, we calculated the number of turns necessary, with N = sqrt(L*lg/u_o*A_c) = 19.4 turns. 
+For the desired inductance and given dimensions, we calculated the number of turns necessary, with N = sqrt(L*lg/u_o*A_c) to get a minimum of 19.4 turns. 
 
-We rounded up to 20 turns, given a window area of 56.99mm^2 in the core and a packing factor of 0.4. The max bare area of the wire is A_w * 0.4 /N = 56.9 mm^2 * 0.4 / 20 = 0.0138cm^2.
+We rounded up to 20 turns, given a window area of 56.99mm^2 in the core and a packing factor of 0.4. The max bare area of the wire was A_w * 0.4 /N = 56.9 mm^2 * 0.4 / 20 = 0.0138cm^2.
 
 We choose a #20 AWG wire with bare area .005188cm^2. For the #20 AWG wire and given average length per turn from the E25 core datasheet, the resistance of the coil is calculated to be 33.23 * 10^−6 Ω/mm ∗ 20 turns ∗ 50mm/turn = 0.0332 ohms. 
 
