@@ -148,5 +148,8 @@ Our inductor had a measured inductance of about 140 μH which was lower than the
 
 The permeability of free space is represented by μ0 = 4π * 10^−7 H/m = 1.25663753 * 10^−6 H / m. The permeability of aluminum is  μaluminum = 1.256665 * 10^−6 H/m which is similar to μ0. This makes sense since aluminum isn't magnetic as well. Our values would only change by a little if at all. We might see a very small increase in inductance since the inductance is proportional to the permeability of material in the air gap.
 
+## Conclusion 
+
+In conclusion, this lab helped practice the skills of reading data sheets as well as designing an inductor. We also learned how to measure the DC resistance, inductance, temperature changes, saturation current, core loss, and hysteresis loss. 
 
 
