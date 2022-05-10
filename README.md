@@ -22,6 +22,26 @@ We conducted tests to measure the DC resistance and inductance of our inductor a
 - USB isolator module
 - Thermal camera
 
+## Background Calculations 
+
+We chose the 495-5429-ND E25 core with N27 material. For N27 material, Bsat = 410mT when temperature T = 100°C and frequency f  = 10kHz.
+
+The volume of the gap is given by the equation:
+Vg = u_o * L * (I_max)^2 / B_max^2 = 4πx10^−7*210μH*(2A)^2 / (410mT)^2 = 6.28x10^−9 m^3 for our operating DC current, magnetic field, and desired inductance. 
+
+From the specification for the E25 core, the cross-sectional area is Ac = 52.5mm^2 = 52.5x10^−6 m^2. 
+Dividing the desired Vg by our specified cross-sectional area, we got that our desired gap length, lg = 1.19 ∗ 10^−4 m.
+
+For the desired inductance and given dimensions, we calculated the number of turns necessary, with N = sqrt(L*lg/u_o*A_c) = 19.4 turns. 
+
+We rounded up to 20 turns, given a window area of 56.99mm^2 in the core and a packing factor of 0.4. The max bare area of the wire is A_w * 0.4 /N = 56.9 mm^2 * 0.4 / 20 = 0.0138cm^2.
+
+We choose a #20 AWG wire with bare area .005188cm^2. For the #20 AWG wire and given average length per turn from the E25 core datasheet, the resistance of the coil is calculated to be 33.23 * 10^−6 Ω/mm ∗ 20 turns ∗ 50mm/turn = 0.0332 ohms. 
+
+We checked for power with the equation, P = I^2R. At this calculated resistance and max power dissipation of 0.4 W, the max current is 3.47 A. Thus, a minimum saturation current of 3 A is reasonable.
+
+In summary, we used the core 495-5429-ND E25 core, N27 material, bobbin 495-5375-ND, a #20 AWG wire, had 20 turns, and a gap size of 1.19 ∗ 10−4 m. 
+
 ## Fabrication
 
 The coil was winded (20 turns) on the plastic bobbin according to design. The insulation was scraped off the ends to make a good connection. The core was assembled with gapping material (paper) to achieve the designed gap size of 1.19 * 10^-4 m. Since there were two gaps, the length of one gap was approximately 0.6 * 10^04 m, so one sheet of paper was used because of it's 0.05 mm thickness. Tape was used to hold it together. 
