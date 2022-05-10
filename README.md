@@ -129,3 +129,13 @@ We measured and recorded the temperature change of the inductor as the DC curren
 
 Figure: The temperature increased as the current increased. Although the overall impedance decreases as current increases, referencing the power equation of P = I^2 * R, the power dissipated increases as current increases. The power is dissipated as heat, leading to an increase in temperature.
 
+## Analysis Questions
+
+1. From your prelab design, estimate your core and winding losses when your in-
+ductor is subjected to a sinusoidal 1 A AC current waveform with a 2 A DC
+component. Is your estimate supported by measurements that you recorded in
+lab? (Note you will not explicitly do this measurement, but rather infer losses
+from DC resistance and your temperature measurements.)
+
+
+
